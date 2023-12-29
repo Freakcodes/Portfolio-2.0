@@ -18,7 +18,7 @@ const About = () => {
         </h1>
         <div className="heroSection flex gap-4">
           <div className="image w-[150px] h-[150px] object-contain lg:w-[400px] lg:h-[400px] ml-[30px] rounded-md  mt-3  ">
-            <img src="./photo.jpeg" alt="photo" className="h-full" />
+            <img src="../images/photo.jpeg" alt="photo" className="h-full" />
           </div>
           <div className="des w-[70%]">
             <h1 className="text-2xl font-semibold text-green-500">
