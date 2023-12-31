@@ -9,6 +9,7 @@ import {
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Layout from "./pages/Layout";
+import ContactForm from "./components/ContactForm";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -16,7 +17,7 @@ function App() {
         <Route path="" element={<Home />} />
         <Route path="/" element={<Layout />}>
           <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="contact" element={<Contact/>} />
          
         </Route>
       </Route>
