@@ -3,13 +3,13 @@ import {FaFacebook,FaGithub,FaInstagram,FaLinkedin} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const Icons = () => {
   return (
-    <div className='icons mx-[100px] text-white text-2xl flex gap-6 mt-[40px]'>
+    <div className='icons mx-[100px] text-white text-2xl flex gap-10 mt-[40px]'>
         
-        <a href="https://www.linkedin.com/in/abhay-gupta-119025257/"><FaLinkedin/></a>
+        <a href="https://www.linkedin.com/in/abhay-gupta-119025257/" ><FaLinkedin className='hover:text-[#0077b5] text-[30px]   '/></a>
           
-        <a href="https://github.com/Freakcodes"><FaGithub /></a>
-        <a href="https://www.facebook.com/profile.php?id=100013315298109"><FaFacebook/></a>
-        <a href="https://www.instagram.com/abhayyyyyyyyy_19/"><FaInstagram/></a>
+        <a href="https://github.com/Freakcodes" ><FaGithub className='hover:text-[#333] text-[30px] ' /></a>
+        <a href="https://www.facebook.com/profile.php?id=100013315298109"><FaFacebook className='hover:text-[#0077b5] text-[30px]   '/></a>
+        <a href="https://www.instagram.com/abhayyyyyyyyy_19/"><FaInstagram className=' hover:text-[#d6249f] text-[30px]'/></a>
     </div>
   )
 }
