@@ -38,32 +38,32 @@ const About = () => {
               <div className="mt-5 flex gap-60">
                 <div className="text-white list-none w-[50%] ">
                   {" "}
-                  <span className="text-green-500 ">></span>
+                  <span className="text-green-500 ">&gt;</span>
                   <span className="font-semibold"> Birthday:</span> 4
                   <sup>th</sup> October 2004
                 </div>
                 <div className="text-white list-none w-[50%] ">
                   {" "}
-                  <span className="text-green-500 ">></span>
+                  <span className="text-green-500 ">&gt;</span>
                   <span className="font-semibold"> Age:</span>19
                 </div>
               </div>
               <div className="mt-5 flex gap-60">
                 <div className="text-white list-none w-[50%] ">
                   {" "}
-                  <span className="text-green-500 ">></span>
+                  <span className="text-green-500 ">&gt;</span>
                   <span className="font-semibold">Degree:</span>B.TECH
                 </div>
                 <div className="text-white list-none w-[50%]">
                   {" "}
-                  <span className="text-green-500 ">></span>
+                  <span className="text-green-500 ">&gt;</span>
                   <span className="font-semibold">Phone:</span>9083157505
                 </div>
               </div>
               <div className="mt-5 flex gap-60">
                 <div className="text-white list-none w-[50%] ">
                   {" "}
-                  <span className="text-green-500">></span>
+                  <span className="text-green-500">&gt;</span>
                   <span className="font-semibold">Email:</span>
                   gabhay408@gmail.com
                 </div>
