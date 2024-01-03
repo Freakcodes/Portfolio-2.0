@@ -12,13 +12,15 @@ const Home = () => {
     animate={{y:"0%"}}
     transition={{duration:0.75,ease:"easeOut"}}
     exit={{opacity:1}}
-    className=' items-center justify-around h-[100vh]'
-    
+    className=' items-center justify-around h-[100vh] content-center' 
     >
       
         <Name/>
         <Descrip/>
+        <div className="onlyhome mt-4">
         <Nav/>
+        </div>
+        
         <Icons/>
       
     

@@ -3,7 +3,7 @@ import {FaFacebook,FaGithub,FaInstagram,FaLinkedin} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const Icons = () => {
   return (
-    <div className='icons mx-[100px] text-white text-2xl flex gap-10 mt-[40px]'>
+    <div className='icons md:mx-[100px] mx-10 text-white text-2xl flex gap-10 mt-[40px]'>
         
         <a href="https://www.linkedin.com/in/abhay-gupta-119025257/" ><FaLinkedin className='hover:text-[#0077b5] text-[30px]   '/></a>
           

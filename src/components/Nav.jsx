@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="mt-4 mx-[100px]">
+    <div className=" md:mx-[100px] mx-10">
       <ul className="flex text-[#ababa8] text-[1.2rem] gap-10">
         <li>
           
