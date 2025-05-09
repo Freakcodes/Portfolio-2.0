@@ -5,6 +5,8 @@ import Nav from '../components/Nav'
 import {motion as m} from "framer-motion"
 import Icons from '../components/Icons'
 import Image from '../components/Image'
+import CharacterCursor from '../components/CharacterCursor'
+import SmoothFollower from '../components/SmoothFollower'
 const Home = () => {
   return (
     <m.div
@@ -14,7 +16,8 @@ const Home = () => {
     exit={{opacity:1}}
     className=' items-center justify-around h-[100vh] content-center' 
     >
-      
+     <CharacterCursor/>
+     {/* <SmoothFollower/> */}
         <Name/>
         <Descrip/>
         <div className="onlyhome mt-4">

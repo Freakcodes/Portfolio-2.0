@@ -4,8 +4,8 @@ import {motion as m } from "framer-motion"
 const Navbar = () => {
   return (
     <m.div 
-    initial={{y:"100%"}}
-    animate={{y:"0%"}}
+    // initial={{y:"100%"}}
+    // animate={{y:"0%"}}
     transition={{duration:0.75,ease:"easeOut"}}
     exit={{opacity:0}}
     className=' md:flex md:justify-between md:items-center  '>
