@@ -1,4 +1,4 @@
-'use client';
+
 import React, { useEffect, useRef } from 'react';
 const CharacterCursor = ({
   characters = ['h', 'e', 'l', 'l', 'o'],

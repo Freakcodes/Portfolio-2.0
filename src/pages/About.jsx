@@ -1,8 +1,14 @@
 import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { motion as m } from "framer-motion";
-import { SiHtml5, SiCss3, SiJavascript, SiReact,SiMysql } from "react-icons/si";
-import {FaJava} from "react-icons/fa";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiMysql,
+} from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import SkillItem from "../components/SkillItem";
 import SmoothFollower from "../components/SmoothFollower";
 import { Image } from "@imagekit/react";
@@ -15,7 +21,7 @@ const About = () => {
       exit={{ opacity: 0 }}
       className=" w-full "
     >
-      <SmoothFollower/>
+      <SmoothFollower />
       <div className="w-[80%] border mx-auto mt-4 pl-6     ">
         <h3 className='text-[#c5c3c3] relative font-semibold after:content-[""] after:absolute after:w-[8rem] after:h-[0.075rem] after:bg-green-500 after:bottom-2.5 after:ml-2.5'>
           ABOUT
@@ -26,11 +32,11 @@ const About = () => {
         <div className="heroSection md:flex md:flex-nowrap gap-4 sm:flex sm:flex-wrap  ">
           <div className="image w-[150px] h-[150px] object-contain lg:w-[400px] lg:h-[400px] ml-[30px] rounded-md  mt-3  ">
             <Image
-            urlEndpoint="https://ik.imagekit.io/abhay123"
+              urlEndpoint="https://ik.imagekit.io/abhay123"
               src="/portfolio"
               alt="My Picture"
               className="h-full rounded-lg"
-              loading="eager" 
+              loading="eager"
             />
           </div>
           <div className="des w-[70%]">
@@ -145,50 +151,67 @@ const About = () => {
             <SkillItem Icon={SiMysql} name="MySQL" percent={50} />
           </div>
         </div>
-        <div className="projects mb-4">
-          <h3 className='text-[#c5c3c3] relative font-semibold after:content-[""] after:absolute after:w-[8rem] after:h-[0.075rem] after:bg-green-500 after:bottom-2.5 after:ml-2.5 mt-10'>
+        <div className="projects mb-10 px-2">
+          <h3 className='text-[#c5c3c3] relative font-semibold text-2xl after:content-[""] after:absolute after:w-[8rem] after:h-[2px] after:bg-green-500 after:bottom-0 after:left-0 mb-6'>
             Projects
           </h3>
-          <div className="flex gap-4 justify-between mr-3 mt-6 flex-wrap">
-            <div className="project-card w-[200px] h-[200px] border  relative rounded-sm hover:scale-110 hover:ease-in-out hover:duration-[0.5s] ">
-              <a href="https://freakcodes.github.io/simpliSearch/">
-                <div className="">
-                  <img
-                    src="https://png.pngtree.com/element_our/png/20181227/movie-icon-which-is-designed-for-all-application-purpose-new-png_287896.jpg"
-                    alt=""
-                  />
-                </div>
-                <h3 className="  absolute bottom-0 font-semibold ml-10 ">
-                  <a href="">Simpli Search</a>
-                </h3>
-              </a>
-            </div>
-            <div className="project-card w-[200px] h-[200px] border relative rounded-sm hover:scale-110 hover:ease-in-out hover:duration-[0.5s]  ">
-              <a href="https://freakpomo.netlify.app/">
-                <div className="">
-                  <img
-                    src="https://static.vecteezy.com/system/resources/previews/021/707/693/non_2x/pomodoro-technique-icon-vector.jpg"
-                    alt=""
-                  />
-                </div>
-                <h3 className="font-semibold absolute bottom-[-6px] ml-14  ">
-                  Pomodoro
-                </h3>
-              </a>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {/* Medley-logs */}
+            <div className="relative group overflow-hidden rounded-md shadow-lg border border-gray-700">
+              <img
+                src="https://ik.imagekit.io/abhay123/Screenshot%202025-05-21%20120552.png?updatedAt=1747811759780"
+                alt="Medley-logs"
+                className="w-full h-48 object-cover group-hover:scale-110 transition duration-300"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <a
+                  href="https://github.com/Freakcodes/Medley-logs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white font-semibold text-lg"
+                >
+                  Medley-logs
+                </a>
+              </div>
             </div>
 
-            <div className="project-card w-[200px] h-[200px] border relative rounded-sm hover:scale-110 hover:ease-in-out hover:duration-[0.5s] ">
-              <a href="https://freakcodes.github.io/Dictionary/">
-                <div className="">
-                  <img
-                    src="https://static.vecteezy.com/system/resources/thumbnails/002/219/582/small_2x/illustration-of-book-icon-free-vector.jpg"
-                    alt=""
-                  />
-                </div>
-                <h3 className="  font-semibold  absolute bottom-0 ml-14 ">
+            {/* VidSnap */}
+            <div className="relative group overflow-hidden rounded-md shadow-lg border border-gray-700">
+              <img
+                src="https://ik.imagekit.io/abhay123/Screenshot%202025-05-21%20121726.png?updatedAt=1747811759783"
+                alt="VidSnap"
+                className="w-full h-48 object-cover group-hover:scale-110 transition duration-300"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <a
+                  href="https://github.com/Freakcodes/VidSnap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white font-semibold text-lg"
+                >
+                  VidSnap
+                </a>
+              </div>
+            </div>
+
+            {/* Dictionary */}
+            <div className="relative group overflow-hidden rounded-md shadow-lg border border-gray-700">
+              <img
+                src="https://ik.imagekit.io/abhay123/Screenshot%202025-05-21%20121745.png?updatedAt=1747811759838"
+                alt="Dictionary"
+                className="w-full h-48 object-cover group-hover:scale-110 transition duration-300"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <a
+                  href="https://freakcodes.github.io/Dictionary/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white font-semibold text-lg"
+                >
                   Dictionary
-                </h3>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         </div>

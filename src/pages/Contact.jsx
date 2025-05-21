@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
 
-   <div className="bg-black text-white p-8 w-96 mx-auto mt-10 rounded-md h-[100vh]">
+   <div className=" text-white p-8 w-96 mx-auto rounded-md mt-10 h-[calc(100vh-100px) border ]">
       <h2 className="text-2xl font-bold mb-4">Send me a message</h2>
       <form  method="POST" action="https://formspree.io/f/mnqeqbdq">
         <div className="mb-4">

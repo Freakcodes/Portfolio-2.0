@@ -9,6 +9,7 @@ import CharacterCursor from '../components/CharacterCursor'
 import SmoothFollower from '../components/SmoothFollower'
 const Home = () => {
   return (
+    
     <m.div
     initial={{y:"100%"}}
     animate={{y:"0%"}}
@@ -16,8 +17,8 @@ const Home = () => {
     exit={{opacity:1}}
     className=' items-center justify-around h-[100vh] content-center' 
     >
-     <CharacterCursor/>
-     {/* <SmoothFollower/> */}
+    
+     <SmoothFollower/>
         <Name/>
         <Descrip/>
         <div className="onlyhome mt-4">
@@ -27,7 +28,7 @@ const Home = () => {
         <Icons/>
       
     
-        <Image />
+        {/* <Image /> */}
       
         
     </m.div>
